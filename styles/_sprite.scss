@@ -1,0 +1,146 @@
+.sprite,
+.sprite-b:before,
+.sprite-a:after {
+	background: url('../images/sprite/sprite.png') no-repeat 0 0;
+}
+.sprite-b,
+.sprite-a {
+	position: relative;
+}
+.sprite-b:before,
+.sprite-a:after {
+	position: absolute;
+	content: '';
+}
+.sprite.notebook1-icon,
+.sprite-b.notebook1-icon:before {
+	background-position: 0 0;
+	width: 84px;
+	height: 62px;
+}
+.sprite.user-icon,
+.sprite-b.user-icon:before {
+	background-position: 0px -67px;
+	width: 19px;
+	height: 18px;
+}
+.sprite.cart-icon,
+.sprite-b.cart-icon:before {
+	background-position: 0px -90px;
+	width: 38px;
+	height: 38px;
+}
+.sprite.littlecart-icon,
+.sprite-b.littlecart-icon:before {
+	background-position: 0px -133px;
+	width: 17px;
+	height: 18px;
+}
+.sprite.question-icon,
+.sprite-b.question-icon:before {
+	background-position: 0px -156px;
+	width: 15px;
+	height: 15px;
+}
+.sprite.blackcursor-icon,
+.sprite-b.blackcursor-icon:before {
+	background-position: 0px -176px;
+	width: 19px;
+	height: 11px;
+}
+.sprite.bluecursor-icon,
+.sprite-b.bluecursor-icon:before {
+	background-position: 0px -192px;
+	width: 19px;
+	height: 12px;
+}
+.sprite.gift-icon,
+.sprite-b.gift-icon:before {
+	background-position: 0px -209px;
+	width: 68px;
+	height: 40px;
+}
+.sprite.skidka-icon,
+.sprite-b.skidka-icon:before {
+	background-position: 0px -254px;
+	width: 68px;
+	height: 40px;
+}
+.sprite.supersena-icon,
+.sprite-b.supersena-icon:before {
+	background-position: 0px -299px;
+	width: 68px;
+	height: 40px;
+}
+.sprite.strekablue-icon,
+.sprite-b.strekablue-icon:before {
+	background-position: 0px -344px;
+	width: 21px;
+	height: 55px;
+}
+.sprite.strekablue1-icon,
+.sprite-b.strekablue1-icon:before {
+	background-position: 0px -404px;
+	width: 21px;
+	height: 55px;
+}
+.sprite.strelkagrey-icon,
+.sprite-b.strelkagrey-icon:before {
+	background-position: 0px -464px;
+	width: 21px;
+	height: 55px;
+}
+.sprite.strelkagrey1-icon,
+.sprite-b.strelkagrey1-icon:before {
+	background-position: 0px -524px;
+	width: 21px;
+	height: 55px;
+}
+.sprite.tr2-icon,
+.sprite-b.tr2-icon:before {
+	background-position: 0px -584px;
+	width: 13px;
+	height: 11px;
+}
+.sprite.tr1-icon,
+.sprite-b.tr1-icon:before {
+	background-position: 0px -600px;
+	width: 13px;
+	height: 12px;
+}
+.sprite.tr2-icon,
+.sprite-a.tr2-icon:after {
+	background-position: 0px -584px;
+	width: 13px;
+	height: 11px;
+}
+.sprite.tr1-icon,
+.sprite-a.tr1-icon:after {
+	background-position: 0px -600px;
+	width: 13px;
+	height: 12px;
+}
+.sprite.burger-icon,
+.sprite-b.burger-icon:before {
+	background-position: 0px -617px;
+	width: 18px;
+	height: 14px;
+}
+.sprite.tw-icon,
+.sprite-b.tw-icon:before {
+	background-position: 2px -636px;
+	width: 34px;
+	height: 34px;
+}
+.sprite.fb-icon,
+.sprite-b.fb-icon:before {
+	background-position: 0px -675px;
+	width: 37px;
+	height: 34px;
+}
+.sprite.vk-icon,
+.sprite-b.vk-icon:before {
+	background-position: 0px -714px;
+	width: 36px;
+	height: 34px;
+}

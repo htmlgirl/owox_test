@@ -1,0 +1,1765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TheLiveLinkShop</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<!-- jQuery library (served from Google) -->
+	<script src="scripts/jquery.min.js"></script>
+
+	<!-- bxSlider Javascript file -->
+	<script src="scripts/jquery.bxslider.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('#slider1').bxSlider({
+				mode: 'fade',
+				auto: true,
+				pause: 7000,
+				controls: false
+			});
+
+			$('#carousel1').bxSlider({
+				infiniteLoop: false,
+				hideControlOnEnd: true,
+				pause: 7000,
+				pager: false,
+				slideWidth: 183,
+				minSlides: 1,
+				maxSlides: 5,
+				slideMargin: 30
+			});
+
+			$('#carousel2').bxSlider({
+				infiniteLoop: false,
+				hideControlOnEnd: true,
+				pause: 7000,
+				pager: false,
+				slideWidth: 183,
+				minSlides: 1,
+				maxSlides: 5,
+				slideMargin: 30
+			});
+
+			$('#carousel3').bxSlider({
+				infiniteLoop: false,
+				hideControlOnEnd: true,
+				pause: 7000,
+				pager: false,
+				slideWidth: 183,
+				minSlides: 1,
+				maxSlides: 5,
+				slideMargin: 30
+			});
+
+			$('#carousel4').bxSlider({
+				infiniteLoop: false,
+				hideControlOnEnd: true,
+				pause: 7000,
+				pager: false,
+				slideWidth: 183,
+				minSlides: 1,
+				maxSlides: 5,
+				slideMargin: 30
+			});
+		});
+	</script>
+</head>
+<body>
+<div class="body-container">
+	<header class="header">
+		<div class="header-top clearfix">
+			<div class="header-top-basket">
+				<div class="clearfix">
+					<a class="header-top-basket-enter novisited linkdotted sprite-b user-icon" href="#">
+						Вход для постоянных клиентов
+						<div class="header-top-basket-enter-number">3</div>
+					</a>
+					<a class="header-top-basket-enter-s novisited linkdotted sprite-b user-icon" href="#">
+						Вход
+						<div class="header-top-basket-enter-s-number">3</div>
+					</a>
+				</div>
+				<a class="header-top-basket-box novisited sprite-a tr1-icon" href="#">
+					<span class="header-top-basket-box-t sprite-b  cart-icon ">Корзина</span>
+				</a>
+				<a class="header-top-basket-box-s novisited sprite-a tr1-icon" href="#">
+					<span class="header-top-basket-box-s-t sprite-b  cart-icon ">Корзина</span>
+				</a>
+			</div>
+			<a class="header-top-logo" href="#">
+				<img class="scale-picture header-top-logo-icon" src="images/logo/logo_shop.jpg" alt="" width="174" height="80">
+			</a>
+
+			<div class="header-top-feedback">
+				<p class="header-top-feedback-phone">
+					<span class="header-top-feedback-phone-hooks">(044)</span>555-00-00
+				</p>
+
+				<a class="header-top-feedback-link novisited linkdotted" href="#">Обратный звонок</a>
+
+				<form class="header-top-feedback-f" method="get" action="#">
+					<button class="header-top-feedback-f-btn sprite-b blackcursor-icon"></button>
+					<div class="header-top-feedback-f-search">
+						<input class="header-top-feedback-f-search-field" type="search" name="search" placeholder="Поиск">
+					</div>
+				</form>
+			</div>
+
+			<a class="header-top-helper">
+				<img src="images/_.gif" width="84" height="62" alt="" class="header-top-helper-img sprite notebook1-icon">
+				Помощь онлайн
+			</a>
+		</div>
+		<input class="burger-input" id="check" type="checkbox">
+		<ul class="header-menu">
+			<li class="header-menu-i">
+				<a class="header-menu-link novisited" href="#">О магазине</a>
+			</li>
+			<li class="header-menu-i">
+				<a class="header-menu-link novisited" href="#">Адреса и телефоны</a>
+			</li>
+			<li class="header-menu-i">
+				<a class="header-menu-link novisited" href="#">Акции</a>
+			</li>
+			<li class="header-menu-i">
+				<a class="header-menu-link novisited" href="#">Новости</a>
+			</li>
+			<li class="header-menu-i">
+				<a class="header-menu-link novisited" href="#">Статьи и обзоры</a>
+			</li>
+			<li class="header-menu-i">
+				<a class="header-menu-link novisited question sprite-b question-icon" href="#">Помощь</a>
+			</li>
+			<li class="header-menu-i">
+				<a class="header-menu-link novisited" href="#">Доставка и оплата</a>
+			</li>
+			<li class="header-menu-i">
+				<a class="header-menu-link novisited" href="#">Гарантия и сервис</a>
+			</li>
+		</ul>
+		<div class="header-g-m">
+			<select class="select">
+				<option class="select-i">ПК и Серверы Prime PC</option>
+				<option class="select-i">Компьютеры и периферия</option>
+				<option class="select-i">Программное обеспечение</option>
+				<option class="select-i">Сети и теле-коммуникации</option>
+				<option class="select-i">Системы безопастности</option>
+				<option class="select-i">Бесперебойная работа</option>
+			</select>
+
+			<ul class="clearfix">
+				<li class="header-g-m-i">
+					<a class="header-g-m-i-link sprite-b tr2-icon" href="#">ПК и Серверы<br>Prime PC</a>
+					<div class="header-g-m-i-b clearfix">
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Ноутбуки и планшеты</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Планшеты</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Ноутбуки</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сумки для ноутбуков</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Аксессуары для ноутбуков</a>
+							</li>
+						</ul>
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Оргтехника</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Принтеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">МФУ</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Плоттеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">ИБП</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сканеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Манипуляторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Телефоны</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Факсы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Расходные материалы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Аксессуары</a>
+							</li>
+						</ul>
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Мониторы и ЖК-панели</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сетевые мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Профессиональные ЖК-панели</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="header-g-m-i">
+					<a class="header-g-m-i-link sprite-b tr2-icon" href="#">Компьютеры<br>и периферия</a>
+					<div class="header-g-m-i-b clearfix">
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Компьютеры</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Компьютеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сервера</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Тонкие клиенты</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Неттопы и моноблоки</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">ИБП</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Манипуляторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Аксессуары</a>
+							</li>
+						</ul>
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Ноутбуки</span>
+							<br>
+							<span class="header-g-sub-m-t">и планшеты</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Планшеты</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Ноутбуки</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сумки для ноутбуков</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Аксессуары для ноутбуков</a>
+							</li>
+						</ul>
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Оргтехника</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Принтеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">МФУ</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Плоттеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">ИБП</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сканеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Манипуляторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Телефоны</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Факсы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Расходные материалы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Аксессуары</a>
+							</li>
+						</ul>
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Мониторы</span>
+							<br>
+							<span class="header-g-sub-m-t">и ЖК-панели</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сетевые мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Профессиональные ЖК-панели</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="header-g-m-i">
+					<a class="header-g-m-i-link sprite-b tr2-icon" href="#">Программное<br>обеспечение</a>
+					<div class="header-g-m-i-b clearfix">
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Компьютеры</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Компьютеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сервера</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Тонкие клиенты</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Неттопы и моноблоки</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">ИБП</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Манипуляторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Аксессуары</a>
+							</li>
+						</ul>
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Оргтехника</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Принтеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">МФУ</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Плоттеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">ИБП</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сканеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Манипуляторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Телефоны</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Факсы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Расходные материалы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Аксессуары</a>
+							</li>
+						</ul>
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Мониторы и ЖК-панели</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сетевые мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Профессиональные ЖК-панели</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="header-g-m-i">
+					<a class="header-g-m-i-link sprite-b tr2-icon" href="#">Сети и теле-<br>коммуникации</a>
+					<div class="header-g-m-i-b clearfix">
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Компьютеры</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Компьютеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сервера</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Тонкие клиенты</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Неттопы и моноблоки</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">ИБП</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Манипуляторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Аксессуары</a>
+							</li>
+						</ul>
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Ноутбуки и планшеты</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Планшеты</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Ноутбуки</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сумки для ноутбуков</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Аксессуары для ноутбуков</a>
+							</li>
+						</ul>
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Оргтехника</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Принтеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">МФУ</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Плоттеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">ИБП</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сканеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Манипуляторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Телефоны</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Факсы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Расходные материалы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Аксессуары</a>
+							</li>
+						</ul>
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Мониторы и ЖК-панели</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сетевые мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Профессиональные ЖК-панели</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="header-g-m-i">
+					<a class="header-g-m-i-link sprite-b tr2-icon " href="#">Системы<br>безопастности</a>
+					<div class="header-g-m-i-b clearfix">
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Ноутбуки и планшеты</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Планшеты</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Ноутбуки</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сумки для ноутбуков</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Аксессуары для ноутбуков</a>
+							</li>
+						</ul>
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Оргтехника</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Принтеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">МФУ</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Плоттеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">ИБП</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сканеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Манипуляторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Телефоны</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Факсы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Расходные материалы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Аксессуары</a>
+							</li>
+						</ul>
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Мониторы и ЖК-панели</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сетевые мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Профессиональные ЖК-панели</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="header-g-m-i">
+					<a class="header-g-m-i-link sprite-b tr2-icon" href="#">Бесперебойная<br>работа</a>
+					<div class="header-g-m-i-b clearfix">
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Компьютеры</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Компьютеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сервера</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Тонкие клиенты</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Неттопы и моноблоки</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">ИБП</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Манипуляторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Аксессуары</a>
+							</li>
+						</ul>
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Ноутбуки и планшеты</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Планшеты</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Ноутбуки</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сумки для ноутбуков</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Аксессуары для ноутбуков</a>
+							</li>
+						</ul>
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Оргтехника</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Принтеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">МФУ</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Плоттеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">ИБП</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сканеры</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Манипуляторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Телефоны</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Факсы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Расходные материалы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Аксессуары</a>
+							</li>
+						</ul>
+						<ul class="header-g-sub-m">
+							<span class="header-g-sub-m-t">Мониторы и ЖК-панели</span>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Сетевые мониторы</a>
+							</li>
+							<li class="header-g-sub-m-i">
+								<a class="header-g-sub-m-i-link novisited" href="#">Профессиональные ЖК-панели</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+
+			<div class="burger-l">
+				<input class="burger-input" id="check" type="checkbox" checked="checked">
+				<label class="burger" for="check">
+					<div class="burger-b sprite-b burger-icon">
+						<img class="burger-img" src="https://i.rozetka.ua/design/_.gif" alt="" width="18" height="14">
+					</div>
+				</label>
+			</div>
+		</div>
+	</header>
+
+	<div class="content clearfix">
+		<div class="slider clearfix">
+			<ul class="slider-l" id="slider1">
+				<li class="slider-l-i">
+					<img class="slider-l-i-picture" src="images/slider/promo_c1.jpg" alt="" width="763" height="228">
+					<div class="slider-l-i-block">
+						<h2 class="slider-l-i-block-h">Инновационные решения<br>Cisco Catalyst Switches</h2>
+						<p class="slider-l-i-block-p">Постройте свою безграничную сеть<br>
+							с уникальным предложением<br>безопасных и надежных решений
+						</p>
+						<a class="slider-l-i-block-link" href="">Ознакомиться с решением</a>
+					</div>
+				</li>
+				<li class="slider-l-i">
+					<img class="slider-l-i-picture" src="images/slider/promo_c2.png" alt="" width="763" height="228">
+					<div class="slider-l-i-block">
+						<h2 class="slider-l-i-block-h">Инновационные решения<br>Cisco Catalyst Switches</h2>
+						<p class="slider-l-i-block-p">Постройте свою безграничную сеть<br>
+							с уникальным предложением<br>безопасных и надежных решений
+						</p>
+						<a class="slider-l-i-block-link" href="">Ознакомиться с решением</a>
+					</div>
+				</li>
+				<li class="slider-l-i">
+					<img class="slider-l-i-picture"  src="images/slider/promo_c3.png" alt="" width="763" height="228">
+					<div class="slider-l-i-block">
+						<h2 class="slider-l-i-block-h">Инновационные решения<br>Cisco Catalyst Switches</h2>
+						<p class="slider-l-i-block-p">Постройте свою безграничную сеть<br>
+							с уникальным предложением<br>безопасных и надежных решений
+						</p>
+						<a class="slider-l-i-block-link" href="">Ознакомиться с решением</a>
+					</div>
+				</li>
+				<li class="slider-l-i">
+					<img class="slider-l-i-picture"  src="images/slider/promo_c2.png" alt="" width="763" height="228">
+					<div class="slider-l-i-block">
+						<h2 class="slider-l-i-block-h">Инновационные решения<br>Cisco Catalyst Switches</h2>
+						<p class="slider-l-i-block-p">Постройте свою безграничную сеть<br>
+							с уникальным предложением<br>безопасных и надежных решений
+						</p>
+						<a class="slider-l-i-block-link" href="">Ознакомиться с решением</a>
+					</div>
+				</li>
+				<li class="slider-l-i">
+					<img class="slider-l-i-picture"  src="images/slider/promo_c3.png" alt="" width="763" height="228">
+					<div class="slider-l-i-block">
+						<h2 class="slider-l-i-block-h">Инновационные решения<br>Cisco Catalyst Switches</h2>
+						<p class="slider-l-i-block-p">Постройте свою безграничную сеть<br>
+							с уникальным предложением<br>безопасных и надежных решений
+						</p>
+						<a class="slider-l-i-block-link" href="">Ознакомиться с решением</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="promo">
+			<h1 class="promo-caption">Aкции</h1>
+			<div class="promo-block clearfix">
+				<img class="promo-block-logo" src="images/promotion/kasper.jpg" alt="" width="37" height="50">
+				<p class="promo-block-t">
+					<a class="promo-block-t-link" href="">Коробочные продукты «Лаборатории Касперского»</a>
+					без увеличения стоимости!
+				</p>
+			</div>
+			<div class="promo-block clearfix">
+				<img class="promo-block-logo" src="images/promotion/fine_reader.jpg" alt="" width="49" height="44">
+				<p class="promo-block-t">
+					<a class="promo-block-t-link" href="">Специальные цены на ABBYY FineReader</a>
+					10 Professional Edition!
+				</p>
+			</div>
+			<div class="promo-block clearfix">
+				<img class="promo-block-logo" src="images/promotion/microsoft.jpg" alt="" width="51" height="44">
+				<p class="promo-block-t">
+					<a class="promo-block-t-link" href="">Скидка до 80% на программные продукты</a>
+					Microsoft для академических пользователей и научных учреждений
+				</p>
+			</div>
+			<a class="promo-button novisited" href="">
+				<span class="promo-button-l sprite-b bluecursor-icon">Все акции</span>
+			</a>
+		</div>
+	</div>
+
+	<div class="m-tabs">
+		<input class="m-tabs-l-i-input input-1" type="radio" id="check1" name="m-tabs" checked="checked">
+		<input class="m-tabs-l-i-input input-2" type="radio" id="check2" name="m-tabs">
+		<input class="m-tabs-l-i-input input-3" type="radio" id="check3" name="m-tabs">
+		<input class="m-tabs-l-i-input input-4" type="radio" id="check4" name="m-tabs">
+
+		<div class="m-tabs-l-wrap">
+			<input class="m-tabs-burger-input" id="check-tabs" type="checkbox">
+			<ul class="m-tabs-l clearfix">
+				<li class="m-tabs-l-i">
+					<label for="check1" class="m-tabs-l-i-btn btn1">
+							<span class="m-tabs-l-i-btn-t btn1t">Спецпредложения</span>
+					</label>
+				</li>
+				<li class="m-tabs-l-i">
+					<label for="check2" class="m-tabs-l-i-btn btn2">
+							<span class="m-tabs-l-i-btn-t">Бестселлеры</span>
+					</label>
+				</li>
+				<li class="m-tabs-l-i">
+					<label for="check3" class="m-tabs-l-i-btn btn3">
+							<span class="m-tabs-l-i-btn-t">Новинки</span>
+					</label>
+				</li>
+				<li class="m-tabs-l-i">
+					<label for="check4" class="m-tabs-l-i-btn btn4">
+							<span class="m-tabs-l-i-btn-t">Скоро в продаже</span>
+					</label>
+				</li>
+			</ul>
+			<div class="m-tabs-burger">
+				<label class="m-tabs-burger-l" for="check-tabs">
+					<div class="m-tabs-burger-b sprite-b burger-icon">
+						<img class="m-tabs-burger-img" src="https://i.rozetka.ua/design/_.gif" alt="" width="18" height="14">
+					</div>
+				</label>
+			</div>
+		</div>
+		<div class="m-tabs-l-i-carousel1">
+
+			<ul id="carousel1">
+				<li class="slide">
+					<div class="slide-b sprite-b gift-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/pc1015pe.jpg" alt="" width="155" height="125">
+						<div class="slide-b-gift">
+							<img class="slide-b-gift-img scale-picture" src="images/goods/bag.jpg" alt="" width="50" height="46">
+							<img class="slide-b-gift-img scale-picture" src="images/goods/mouse.jpg" alt="" width="47" height="44">
+						</div>
+					</div>
+					<p class="slide-t">+ в подарок мышка и стильная сумка</p>
+					<a class="slide-link novisited" href="">Asus ee PC 1015PE White</a>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">6257
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">756$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/hd203wi.jpg" alt="" width="150" height="95">
+					</div>
+					<p class="slide-t">Уникальное снижение цены на винчестер 200 GB!</p>
+					<a class="slide-link novisited" href="">Samsung HD203WI</a>
+					<p class="slide-p">754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">86$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/vb60cshr.jpg" alt="" width="144" height="116">
+					</div>
+					<p class="slide-t">При покупке 5 камер и более — скидка 10%</p>
+					<a class="slide-link novisited" href="">Vision Hi-Tech VB60CSHR</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price"> 1 599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">206$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/z0gf.jpg" alt="" width="134" height="128">
+					</div>
+					<p class="slide-t">По европейской цене!</p>
+					<a class="slide-link novisited" href="">Apple iMac 27" (Z0GF)</a>
+					<p class="slide-p">24 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">23 399
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr"> 3 049$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/msi_n9800gt.jpg" alt="" width="150" height="112">
+					</div>
+					<p class="slide-t">Скидка 25%</p>
+					<a class="slide-link novisited" href="">Видеокарта MSI N9800GT</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">1 434
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">246$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/vb60cshr.jpg" alt="" width="144" height="116">
+					</div>
+					<p class="slide-t">При покупке 5 камер и более — скидка 10%</p>
+					<a class="slide-link novisited" href="">Vision Hi-Tech VB60CSHR</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price"> 1 599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">206$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/z0gf.jpg" alt="" width="134" height="128">
+					</div>
+					<p class="slide-t">По европейской цене!</p>
+					<a class="slide-link novisited" href="">Apple iMac 27" (Z0GF)</a>
+					<p class="slide-p">24 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">23 399
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr"> 3 049$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b gift-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/pc1015pe.jpg" alt="" width="155" height="125">
+					</div>
+					<p class="slide-t">+ в подарок мышка и стильная сумка</p>
+					<a class="slide-link novisited" href="">Asus ee PC 1015PE White</a>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">6257
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">756$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/msi_n9800gt.jpg" alt="" width="150" height="112">
+					</div>
+					<p class="slide-t">Скидка 25%</p>
+					<a class="slide-link novisited" href="">Видеокарта MSI N9800GT</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">1 434
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">246$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/z0gf.jpg" alt="" width="134" height="128">
+					</div>
+					<p class="slide-t">По европейской цене!</p>
+					<a class="slide-link novisited" href="">Apple iMac 27" (Z0GF)</a>
+					<p class="slide-p">24 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">23 399
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr"> 3 049$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/hd203wi.jpg" alt="" width="150" height="95">
+					</div>
+					<p class="slide-t">Уникальное снижение цены на винчестер 200 GB!</p>
+					<a class="slide-link novisited" href="">Samsung HD203WI</a>
+					<p class="slide-p">754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">86$</p>
+				</li>
+			</ul>
+			<a class="m-tabs-button novisited" href="">
+				<span class="m-tabs-button-l sprite-b bluecursor-icon">Все спецпредложения</span>
+			</a>
+		</div>
+
+		<div class="m-tabs-l-i-carousel2">
+
+			<ul id="carousel2">
+				<li class="slide">
+					<div class="slide-b sprite-b gift-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/pc1015pe.jpg" alt="" width="155" height="125">
+					</div>
+					<p class="slide-t">+ в подарок мышка и стильная сумка</p>
+					<a class="slide-link novisited" href="">Asus ee PC 1015PE White</a>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">6257
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">756$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/hd203wi.jpg" alt="" width="150" height="95">
+					</div>
+					<p class="slide-t">Уникальное снижение цены на винчестер 200 GB!</p>
+					<a class="slide-link novisited" href="">Samsung HD203WI</a>
+					<p class="slide-p">754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">86$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/vb60cshr.jpg" alt="" width="144" height="116">
+					</div>
+					<p class="slide-t">При покупке 5 камер и более — скидка 10%</p>
+					<a class="slide-link novisited" href="">Vision Hi-Tech VB60CSHR</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price"> 1 599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">206$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/z0gf.jpg" alt="" width="134" height="128">
+					</div>
+					<p class="slide-t">По европейской цене!</p>
+					<a class="slide-link novisited" href="">Apple iMac 27" (Z0GF)</a>
+					<p class="slide-p">24 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">23 399
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr"> 3 049$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/msi_n9800gt.jpg" alt="" width="150" height="112">
+					</div>
+					<p class="slide-t">Скидка 25%</p>
+					<a class="slide-link novisited" href="">Видеокарта MSI N9800GT</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">1 434
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">246$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/vb60cshr.jpg" alt="" width="144" height="116">
+					</div>
+					<p class="slide-t">При покупке 5 камер и более — скидка 10%</p>
+					<a class="slide-link novisited" href="">Vision Hi-Tech VB60CSHR</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price"> 1 599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">206$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/z0gf.jpg" alt="" width="134" height="128">
+					</div>
+					<p class="slide-t">По европейской цене!</p>
+					<a class="slide-link novisited" href="">Apple iMac 27" (Z0GF)</a>
+					<p class="slide-p">24 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">23 399
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr"> 3 049$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b gift-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/pc1015pe.jpg" alt="" width="155" height="125">
+					</div>
+					<p class="slide-t">+ в подарок мышка и стильная сумка</p>
+					<a class="slide-link novisited" href="">Asus ee PC 1015PE White</a>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">6257
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">756$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/msi_n9800gt.jpg" alt="" width="150" height="112">
+					</div>
+					<p class="slide-t">Скидка 25%</p>
+					<a class="slide-link novisited" href="">Видеокарта MSI N9800GT</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">1 434
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">246$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/z0gf.jpg" alt="" width="134" height="128">
+					</div>
+					<p class="slide-t">По европейской цене!</p>
+					<a class="slide-link novisited" href="">Apple iMac 27" (Z0GF)</a>
+					<p class="slide-p">24 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">23 399
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr"> 3 049$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/hd203wi.jpg" alt="" width="150" height="95">
+					</div>
+					<p class="slide-t">Уникальное снижение цены на винчестер 200 GB!</p>
+					<a class="slide-link novisited" href="">Samsung HD203WI</a>
+					<p class="slide-p">754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">86$</p>
+				</li>
+			</ul>
+
+			<a class="m-tabs-button novisited" href="">
+				<span class="m-tabs-button-l sprite-b bluecursor-icon">Все бетселлеры</span>
+			</a>
+		</div>
+
+		<div class="m-tabs-l-i-carousel3">
+
+			<ul id="carousel3">
+				<li class="slide">
+					<div class="slide-b sprite-b gift-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/pc1015pe.jpg" alt="" width="155" height="125">
+					</div>
+					<p class="slide-t">+ в подарок мышка и стильная сумка</p>
+					<a class="slide-link novisited" href="">Asus ee PC 1015PE White</a>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">6257
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">756$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/hd203wi.jpg" alt="" width="150" height="95">
+					</div>
+					<p class="slide-t">Уникальное снижение цены на винчестер 200 GB!</p>
+					<a class="slide-link novisited" href="">Samsung HD203WI</a>
+					<p class="slide-p">754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">86$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/vb60cshr.jpg" alt="" width="144" height="116">
+					</div>
+					<p class="slide-t">При покупке 5 камер и более — скидка 10%</p>
+					<a class="slide-link novisited" href="">Vision Hi-Tech VB60CSHR</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price"> 1 599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">206$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/z0gf.jpg" alt="" width="134" height="128">
+					</div>
+					<p class="slide-t">По европейской цене!</p>
+					<a class="slide-link novisited" href="">Apple iMac 27" (Z0GF)</a>
+					<p class="slide-p">24 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">23 399
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr"> 3 049$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/msi_n9800gt.jpg" alt="" width="150" height="112">
+					</div>
+					<p class="slide-t">Скидка 25%</p>
+					<a class="slide-link novisited" href="">Видеокарта MSI N9800GT</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">1 434
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">246$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/vb60cshr.jpg" alt="" width="144" height="116">
+					</div>
+					<p class="slide-t">При покупке 5 камер и более — скидка 10%</p>
+					<a class="slide-link novisited" href="">Vision Hi-Tech VB60CSHR</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price"> 1 599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">206$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/z0gf.jpg" alt="" width="134" height="128">
+					</div>
+					<p class="slide-t">По европейской цене!</p>
+					<a class="slide-link novisited" href="">Apple iMac 27" (Z0GF)</a>
+					<p class="slide-p">24 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">23 399
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr"> 3 049$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b gift-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/pc1015pe.jpg" alt="" width="155" height="125">
+					</div>
+					<p class="slide-t">+ в подарок мышка и стильная сумка</p>
+					<a class="slide-link novisited" href="">Asus ee PC 1015PE White</a>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">6257
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">756$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/msi_n9800gt.jpg" alt="" width="150" height="112">
+					</div>
+					<p class="slide-t">Скидка 25%</p>
+					<a class="slide-link novisited" href="">Видеокарта MSI N9800GT</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">1 434
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">246$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/z0gf.jpg" alt="" width="134" height="128">
+					</div>
+					<p class="slide-t">По европейской цене!</p>
+					<a class="slide-link novisited" href="">Apple iMac 27" (Z0GF)</a>
+					<p class="slide-p">24 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">23 399
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr"> 3 049$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/hd203wi.jpg" alt="" width="150" height="95">
+					</div>
+					<p class="slide-t">Уникальное снижение цены на винчестер 200 GB!</p>
+					<a class="slide-link novisited" href="">Samsung HD203WI</a>
+					<p class="slide-p">754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">86$</p>
+				</li>
+			</ul>
+
+			<a class="m-tabs-button novisited" href="">
+				<span class="m-tabs-button-l sprite-b bluecursor-icon">Все новинки</span>
+			</a>
+		</div>
+
+		<div class="m-tabs-l-i-carousel4">
+
+			<ul id="carousel4">
+				<li class="slide">
+					<div class="slide-b sprite-b gift-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/pc1015pe.jpg" alt="" width="155" height="125">
+					</div>
+					<p class="slide-t">+ в подарок мышка и стильная сумка</p>
+					<a class="slide-link novisited" href="">Asus ee PC 1015PE White</a>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">6257
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">756$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/hd203wi.jpg" alt="" width="150" height="95">
+					</div>
+					<p class="slide-t">Уникальное снижение цены на винчестер 200 GB!</p>
+					<a class="slide-link novisited" href="">Samsung HD203WI</a>
+					<p class="slide-p">754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">86$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/vb60cshr.jpg" alt="" width="144" height="116">
+					</div>
+					<p class="slide-t">При покупке 5 камер и более — скидка 10%</p>
+					<a class="slide-link novisited" href="">Vision Hi-Tech VB60CSHR</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price"> 1 599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">206$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/z0gf.jpg" alt="" width="134" height="128">
+					</div>
+					<p class="slide-t">По европейской цене!</p>
+					<a class="slide-link novisited" href="">Apple iMac 27" (Z0GF)</a>
+					<p class="slide-p">24 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">23 399
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr"> 3 049$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/msi_n9800gt.jpg" alt="" width="150" height="112">
+					</div>
+					<p class="slide-t">Скидка 25%</p>
+					<a class="slide-link novisited" href="">Видеокарта MSI N9800GT</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">1 434
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">246$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/vb60cshr.jpg" alt="" width="144" height="116">
+					</div>
+					<p class="slide-t">При покупке 5 камер и более — скидка 10%</p>
+					<a class="slide-link novisited" href="">Vision Hi-Tech VB60CSHR</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price"> 1 599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">206$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/z0gf.jpg" alt="" width="134" height="128">
+					</div>
+					<p class="slide-t">По европейской цене!</p>
+					<a class="slide-link novisited" href="">Apple iMac 27" (Z0GF)</a>
+					<p class="slide-p">24 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">23 399
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr"> 3 049$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b gift-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/pc1015pe.jpg" alt="" width="155" height="125">
+					</div>
+					<p class="slide-t">+ в подарок мышка и стильная сумка</p>
+					<a class="slide-link novisited" href="">Asus ee PC 1015PE White</a>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">6257
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">756$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b skidka-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/msi_n9800gt.jpg" alt="" width="150" height="112">
+					</div>
+					<p class="slide-t">Скидка 25%</p>
+					<a class="slide-link novisited" href="">Видеокарта MSI N9800GT</a>
+					<p class="slide-p">1 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">1 434
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">246$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/z0gf.jpg" alt="" width="134" height="128">
+					</div>
+					<p class="slide-t">По европейской цене!</p>
+					<a class="slide-link novisited" href="">Apple iMac 27" (Z0GF)</a>
+					<p class="slide-p">24 754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">23 399
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr"> 3 049$</p>
+				</li>
+
+				<li class="slide">
+					<div class="slide-b sprite-b supersena-icon">
+						<img class="scale-picture slide-b-img" src="images/goods/hd203wi.jpg" alt="" width="150" height="95">
+					</div>
+					<p class="slide-t">Уникальное снижение цены на винчестер 200 GB!</p>
+					<a class="slide-link novisited" href="">Samsung HD203WI</a>
+					<p class="slide-p">754 грн.</p>
+					<a class="slide-btn sprite-b littlecart-icon" href="">
+						<span class="slide-btn-price">599
+							<span class="slide-btn-price-cy">грн.</span>
+						</span>
+					</a>
+					<p class="slide-pr">86$</p>
+				</li>
+			</ul>
+
+			<a class="m-tabs-button novisited" href="">
+				<span class="m-tabs-button-l sprite-b bluecursor-icon">Скоро в продаже</span>
+			</a>
+		</div>
+	</div>
+
+	<div class="brand-icons">
+		<p class="brand-icons-text">IT-решения и компьютерная техника ведущих мировых производителей</p>
+		<a class="brand-icons-button novisited" href="">
+			<span class="brand-icons-button-l sprite-b bluecursor-icon">Все производители</span>
+		</a>
+		<div class="brand-icons-block clearfix">
+			<div class="brand-icons-block-inner clearfix">
+				<ul class="brand-icons-block-l clearfix">
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/at_t.jpg" alt="" width="73" height="38">
+						</a>
+					</li>
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/toshiba.jpg" alt="" width="93" height="18">
+						</a>
+					</li>
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/ibm.jpg" alt="" width="67" height="27">
+						</a>
+					</li>
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/dell.jpg" alt="" width="57" height="23">
+						</a>
+					</li>
+				</ul>
+				<ul class="brand-icons-block-l clearfix">
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/apple.jpg" alt="" width="35" height="43">
+						</a>
+					</li>
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/microsoft.jpg" alt="" width="93" height="16">
+						</a>
+					</li>
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/intel.jpg" alt="" width="52" height="36">
+						</a>
+					</li>
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/amd.jpg" alt="" width="77" height="26">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="brand-icons-block-inner clearfix">
+				<ul class="brand-icons-block-l clearfix">
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/cisco.jpg" alt="" width="54" height="28">
+						</a>
+					</li>
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/panasonic.jpg" alt="" width="105" height="23">
+						</a>
+					</li>
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/lenovo.jpg" alt="" width="103" height="27">
+						</a>
+					</li>
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/asus.jpg" alt="" width="80" height="17">
+						</a>
+					</li>
+				</ul>
+				<ul class="brand-icons-block-l clearfix">
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/nokia.jpg" alt="" width="73" height="16">
+						</a>
+					</li>
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/samsung.jpg" alt="" width="79" height="27">
+						</a>
+					</li>
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/nec.jpg" alt="" width="54" height="15">
+						</a>
+					</li>
+					<li class="brand-icons-block-l-i">
+						<a class="brand-icons-block-l-i-link"href="">
+							<img class="brand-icons-block-l-i-img scale-picture" src="images/brands/kasper.jpg" alt="" width="112" height="30">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="brand-links">
+		<ul class="clearfix brand-links-l">
+			<li class="brand-links-l-i">
+				<a class="brand-links-l-i-link novisited">ACER</a>
+				<a class="brand-links-l-i-link novisited">ADOBE</a>
+				<a class="brand-links-l-i-link novisited">AMP NETCONNECT</a>
+				<a class="brand-links-l-i-link novisited">АРС</a>
+				<a class="brand-links-l-i-link novisited">Apollo</a>
+				<a class="brand-links-l-i-link novisited">ASSMANN</a>
+				<a class="brand-links-l-i-link novisited">AVAYA</a>
+			</li>
+			<li class="brand-links-l-i">
+				<a class="brand-links-l-i-link novisited">BenQ</a>
+				<a class="brand-links-l-i-link novisited">BOSCH</a>
+				<a class="brand-links-l-i-link novisited">CISCO</a>
+				<a class="brand-links-l-i-link novisited">Dell</a>
+				<a class="brand-links-l-i-link novisited">D-LINK</a>
+				<a class="brand-links-l-i-link novisited">Dr.Web</a>
+				<a class="brand-links-l-i-link novisited">EPSON</a>
+			</li>
+			<li class="brand-links-l-i">
+				<a class="brand-links-l-i-link novisited">McAfee</a>
+				<a class="brand-links-l-i-link novisited">MICROSOFT</a>
+				<a class="brand-links-l-i-link novisited">MSI</a>
+				<a class="brand-links-l-i-link novisited">NEC</a>
+				<a class="brand-links-l-i-link novisited">OKI</a>
+				<a class="brand-links-l-i-link novisited">ORACLE</a>
+				<a class="brand-links-l-i-link novisited">PANASONIC</a>
+			</li>
+			<li class="brand-links-l-i">
+				<a class="brand-links-l-i-link novisited">BenQ</a>
+				<a class="brand-links-l-i-link novisited">BOSCH</a>
+				<a class="brand-links-l-i-link novisited">CISCO</a>
+				<a class="brand-links-l-i-link novisited">Dell</a>
+				<a class="brand-links-l-i-link novisited">D-LINK</a>
+				<a class="brand-links-l-i-link novisited">Dr.Web</a>
+				<a class="brand-links-l-i-link novisited">EPSON</a>
+			</li>
+			<li class="brand-links-l-i">
+				<a class="brand-links-l-i-link novisited">PANASONIC</a>
+				<a class="brand-links-l-i-link novisited">PROMT</a>
+				<a class="brand-links-l-i-link novisited">R&M</a>
+				<a class="brand-links-l-i-link novisited">SAMSUNG</a>
+				<a class="brand-links-l-i-link novisited">TOSHIBA</a>
+				<a class="brand-links-l-i-link novisited">VINET</a>
+				<a class="brand-links-l-i-link novisited">VMware</a>
+			</li>
+			<li class="brand-links-l-i">
+				<a class="brand-links-l-i-link novisited">ESET</a>
+				<a class="brand-links-l-i-link novisited">HP</a>
+				<a class="brand-links-l-i-link novisited">HITACHI DATA SYSTEMS</a>
+				<a class="brand-links-l-i-link novisited">IBM</a>
+				<a class="brand-links-l-i-link novisited">INTEL</a>
+				<a class="brand-links-l-i-link novisited">KINGSTON</a>
+				<a class="brand-links-l-i-link novisited">LG ELECTRONICS</a>
+			</li>
+			<li class="brand-links-l-i">
+				<a class="brand-links-l-i-link novisited">McAfee</a>
+				<a class="brand-links-l-i-link novisited">MICROSOFT</a>
+				<a class="brand-links-l-i-link novisited">MSI</a>
+				<a class="brand-links-l-i-link novisited">NEC</a>
+				<a class="brand-links-l-i-link novisited">OKI</a>
+				<a class="brand-links-l-i-link novisited">ORACLE</a>
+				<a class="brand-links-l-i-link novisited">PANASONIC</a>
+			</li>
+			<li class="brand-links-l-i">
+				<a class="brand-links-l-i-link novisited">PANASONIC</a>
+				<a class="brand-links-l-i-link novisited">PROMT</a>
+				<a class="brand-links-l-i-link novisited">R&M</a>
+				<a class="brand-links-l-i-link novisited">SAMSUNG</a>
+				<a class="brand-links-l-i-link novisited">TOSHIBA</a>
+				<a class="brand-links-l-i-link novisited">VINET</a>
+				<a class="brand-links-l-i-link novisited">VMware</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="articles">
+		<h2 class="articles-caption">Статьи и обзоры</h2>
+
+		<a class="articles-button novisited" href="">
+			<span class="articles-button-l sprite-b bluecursor-icon">Другие статьи и обзоры</span>
+		</a>
+		<ul class="articles-l clearfix">
+			<li class="articles-l-i clearfix">
+				<div class="articles-l-i-img-wrap">
+					<img class="articles-l-i-img scale-picture" src="images/articles/galaxy_r.jpg" alt="" width="151" height="115">
+				</div>
+				<div class="articles-l-i-block">
+					<a class="articles-l-i-link" href="">Обзор смартфона Samsung Galaxy R</a>
+					<p class="articles-l-i-text">Samsung продолжает наращивать количество моделей в свой звездной серии
+						смартфонов Galaxy. Впрочем, на этот раз причина появления новинки вполне предсказуема.
+					</p>
+				</div>
+			</li>
+			<li class="articles-l-i clearfix">
+				<div class="articles-l-i-img-wrap">
+					<img class="articles-l-i-img scale-picture" src="images/articles/deskjet_d1663.jpg" alt="" width="148" height="81">
+				</div>
+				<div class="articles-l-i-block">
+					<a class="articles-l-i-link" href="">Обзор принтера Hewlett Packard	Deskjet D1663</a>
+					<p class="articles-l-i-text">Волны удовольствия...! Ну какой украинец не любит вкусной еды? Вот и я,
+						признаться, не прочь поесть что-нибудь аппетитное.
+					</p>
+				</div>
+			</li>
+			<li class="articles-l-i clearfix">
+				<div class="articles-l-i-img-wrap">
+					<img class="articles-l-i-img scale-picture" src="images/articles/lifebook.jpg" alt="" width="149" height="127">
+				</div>
+				<div class="articles-l-i-block">
+					<a class="articles-l-i-link" href="">LIFEBOOK X2: ноутбук, складывающийся вчетверо</a>
+					<p class="articles-l-i-text">Настольный компьютер, ноутбук, нетбук, планшет, смартфон – вроде бы все
+						размерные ниши компьютерных устройств уже заняты, и ничего нового тут не придумаешь.
+					</p>
+				</div>
+			</li>
+			<li class="articles-l-i clearfix">
+				<div class="articles-l-i-img-wrap">
+					<img class="articles-l-i-img scale-picture" src="images/articles/hdd.jpg" alt="" width="150" height="115">
+				</div>
+				<div class="articles-l-i-block">
+					<a class="articles-l-i-link" href="">Обзор беспроводного HDD Seagate GoFlex Satellite</a>
+					<p class="articles-l-i-text">Банальный вопрос: что делать, если в вашем ноутбуке закончилось место на
+						жестком диске? Самый простой ответ – купить внешний жесткий диск с USB-интерфейсом, благо сейчас
+						это недорого и широко доступно.
+					</p>
+				</div>
+			</li>
+
+		</ul>
+	</div>
+
+	<footer class="footer">
+		<p class="footer-copyright">© 2003–2013, The LiveLinkShop</p>
+		<div class="footer-menu">
+			<a class="footer-menu-link novisited" href="#">О магазине</a>
+			<a class="footer-menu-link novisited" href="#">Сотрудничество с нами</a>
+			<a class="footer-menu-link novisited" href="#">Адреса и телефоны</a>
+			<a class="footer-menu-link novisited question sprite-b question-icon" href="#">Помощь</a>
+			<a class="footer-menu-link novisited" href="#">Оплата&nbsp;и&nbsp;доставка</a>
+			<a class="footer-menu-link novisited" href="#">Гарантияи и сервис</a>
+		</div>
+		<ul class="footer-l clearfix">
+			<li class="footer-l-i">
+				<div class="footer-l-i-inner clearfix">
+					<p class="footer-l-i-address">Украина, Киев, ул. Ленина, 31</p>
+					<p class="footer-l-i-feedback-phone">
+						<span class="footer-l-i-feedback-phone-hooks">(044)</span>
+						555-00-00
+					</p>
+					<a class="footer-l-i-feedback-link linkdotted novisited" href="">Обратный звонок</a>
+				</div>
+				<div class="footer-l-i-inner clearfix">
+					<a class="footer-l-i-feedback-form novisited" href=""><span class="footer-l-i-feedback-form-t">Форма обратной связи</span></a>
+					<a class="footer-last novisited" href="">Условия использования сайта</a>
+				</div>
+			</li>
+			<li class="footer-l-i">
+				<div class="footer-l-i-inner clearfix">
+					<p class="footer-l-i-time">
+						<span class="footer-l-i-time-bold">Время работы с 9:00 до 19:00</span><br>
+						Суббота с 9:00 до 18:00<br>
+						Воскресенье  с 10:00 до 15:00
+					</p>
+				</div>
+				<div class="footer-l-i-inner clearfix">
+					<p class="footer-l-i-payment">Принимаем к оплате<p/>
+					<a class="footer-l-i-payment-link" href="">
+						<img src="images/payment_system/payment.jpg" alt="" height="26" width="220">
+					</a>
+				</div>
+			</li>
+			<li class="footer-l-i clearfix">
+				<a class="footer-l-i-sr novisited sprite-b fb-icon" href="">Мы на Фейсбуке</a>
+				<a class="footer-l-i-sr novisited sprite-b vk-icon" href="">Наша страница вКонтакте</a>
+				<a class="footer-l-i-sr novisited sprite-b tw-icon" href="">Наш Твитер</a>
+			</li>
+			<li class="footer-l-i">
+				<div class="footer-l-i-in clearfix">
+					<div class="footer-l-i-block">
+						<a class="footer-l-i-logo" href="">
+							<img  class="scale-picture" src="images/logo/owox.jpg" alt="" height="23" width="118">
+						</a>
+					</div>
+					<div class="footer-l-i-b">
+						<p class="footer-l-i-company">Интернет-магазин разработан <br>
+							и поддерживается
+							<a class="footer-l-i-company-link novisited" href="">в компании OWOX</a>
+						</p>
+						<p class="footer-l-i-year">2011</p>
+					</div>
+				</div>
+			</li>
+		</ul>
+
+	</footer>
+</div>
+</body>
+</html>

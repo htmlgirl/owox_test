@@ -1,0 +1,44 @@
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.scale-picture {
+	max-height: 100%;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.novisited:link,
+.novisited:visited {
+	color: #105a8f;
+}
+
+.novisited:hover {
+	color: #d10000;
+	text-decoration: underline;
+}
+
+.novisited:active {
+	color: #9cf;
+}
+
+.linkdotted:link,
+.linkdotted:visited {
+	text-decoration: none;
+	border-bottom: 1px dotted #105a8f;
+}
+
+.linkdotted:hover {
+	text-decoration: none;
+	border-bottom: 1px dotted #d10000;
+}
+
+.linkdotted:active {
+	text-decoration: none;
+	border-bottom: 1px dotted #9cf;
+}

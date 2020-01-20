@@ -1,0 +1,41 @@
+@mixin linear-gradient($direction, $color) {
+
+	$directionTo: null;
+
+	@if ($direction == top) {
+		$directionTo: to bottom;
+	} @else if ($direction == right) {
+		$directionTo: to left;
+	} @else if ($direction == bottom) {
+		$directionTo: to top;
+	} @else if ($direction == left) {
+		$directionTo: to right;
+	}
+	background: -webkit-linear-gradient($direction, $color);
+	background: -moz-linear-gradient($direction, $color);
+	background: -ms-linear-gradient($direction, $color);
+	background: -o-linear-gradient($direction, $color);
+	background: linear-gradient($directionTo, $color);
+}
+
+@mixin ellipse-gradient($position, $size, $color) {
+	background: -webkit-radial-gradient($position, $size, $color);
+	background: -moz-radial-gradient($position, $size, $color);
+	background: -ms-radial-gradient($position, $size, $color);
+	background: -o-radial-gradient($position, $size, $color);
+	background: radial-gradient($size at $position, $color);
+}
+
+@mixin skewX($deg) {
+	-webkit-transform: skewX($deg);
+	-moz-transform: skewX($deg);
+	-ms-transform: skewX($deg);
+	-o-transform: skewX($deg);
+	transform: skewX($deg);
+}
+
+@mixin box-sizing($param) {
+	-webkit-box-sizing: $param;
+	-moz-box-sizing: $param;
+	box-sizing: $param;
+}
